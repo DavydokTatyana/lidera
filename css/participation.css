@@ -1,0 +1,122 @@
+section.participation{
+  padding-top: 89px;
+}
+.participation .wrapper{
+  position: relative;
+  max-width: 1205px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.participation__billet {
+  left: -27px;
+  margin-bottom: 38px;
+}
+.participation h3 {
+  position: relative;
+  left: 8px;
+  margin-bottom: 25px;
+}
+.participation__posts {
+  position: relative;
+  left: -27px;
+  border-top: 1px solid #979797;
+  padding-top: 31px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 53px;
+}
+.participation__posts_item {
+  position: relative;
+  border-radius: 35px;
+  background: #8836AE;
+  max-width: 595px;
+  width: 100%;
+  margin: 5px 0;
+  min-height: 358px;
+}
+.participation__posts_item:nth-child(1) {
+  padding: 34px 63px;
+}
+.participation__posts_item:nth-child(2) {
+  padding: 41px 38px;
+}
+.participation__posts_item:nth-child(3) {
+  padding: 46px 63px;
+}
+.participation__posts_item:nth-child(4) {
+  padding: 38px;
+}
+.participation__posts_head {
+  color: #FFF;
+  font-size: 32px;
+  font-family: Arial;
+  font-weight: 700;
+  line-height: 35px;
+  margin-bottom: 11px;
+}
+.participation__posts_text {
+  color: #FFF;
+  font-size: 16px;
+  font-family: Arial;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+}
+.participation__posts_item:nth-child(2) .participation__posts_head {
+  margin-bottom: 36px;
+}
+.participation__posts_item:nth-child(3) .participation__posts_head {
+  margin-bottom: 28px;
+}
+.participation__posts_item:nth-child(4) .participation__posts_head {
+  margin-bottom: 29px;
+}
+.participation__posts_ic {
+  position: absolute;
+}
+.participation__posts_item:nth-child(1) .participation__posts_ic{
+  width: 130px;
+  height: 128px;
+  top: 8px;
+  right: 7px;
+}
+.participation__posts_item:nth-child(2) .participation__posts_ic{
+  width: 103px;
+  height: 101px;
+  top: 27px;
+  right: 16px;
+}
+.participation__posts_item:nth-child(3) .participation__posts_ic{
+  width: 154px;
+  height: 151px;
+  top: -10px;
+  right: 0px;
+}
+.participation__posts_item:nth-child(4) .participation__posts_ic{
+  width: 142px;
+  height: 142px;
+  top: 13px;
+  right: 0px;
+}
+.participation__btn {
+  position: relative;
+  border-radius: 100px;
+  background: #F7BA4B;
+  color: #191919;
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 28px 50px;
+  width: 100%;
+  max-width: 532px;
+}
+.participation__btn_pos {
+  left: -22px;
+}

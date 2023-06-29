@@ -1,0 +1,63 @@
+@import url("./header.css");
+@import url("./banner.css");
+@import url("./championship.css");
+@import url("./participation.css");
+@import url("./criteria.css");
+@import url("./news.css");
+@import url("./organizer.css");
+@import url("./registration.css");
+
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1E0044;
+  background-image: url('../images/main/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.wrapper {
+  max-width: 1273px;
+  width: 100%;
+  margin: 0 auto;
+}
+.btn__border_smoll {
+  position: relative;
+  padding: 14px 25px;
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial;
+  line-height: 20px;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  white-space: nowrap;
+}
+h3 {
+  color: #FFF;
+  text-align: center;
+  font-size: 78px;
+  font-family: Arial;
+  font-weight: 700;
+  line-height: 70px;
+}
+@media(max-width: 400px) {
+  body{
+   min-width: 380px;        
+   width: auto !important;  
+   width: 380px;        
+  }
+}
+.organizer__partner {
+  display: none !important;
+}
+.registration, .contacts, .footer {
+  display: none !important;
+}

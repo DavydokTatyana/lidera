@@ -1,0 +1,114 @@
+section.organizer .wrapper{
+  max-width: 1160px;
+}
+.organizer__head {
+  margin-top: 86px;
+  padding-bottom: 39px;
+  border-bottom: 1px solid #979797;
+}
+.organizer__head_btn{
+  position: relative;
+  left: 3px;
+  width: 169px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.organizer__head h3 {
+  position: relative;
+  left: 3px;
+}
+
+.organizer__content {
+  position: relative;
+  margin-top: 83px;
+  display: flex;
+  justify-content: end;
+}
+.organizer__content img{
+  position: absolute;
+  width: 703px;
+  height: 665px;
+  left: -115px;
+  top: -74px;
+}
+.organizer__content_text {
+  max-width: 540px;
+  position: relative;
+  left: -36px;
+}
+
+.organizer__content_text p{
+  color: #ffffff;
+  font-size: 24px;
+  font-family: Arial;
+  line-height: 31px;
+  letter-spacing: 0.5px;
+}
+.organizer__content_text p span{
+  color: #FDC949;
+  font-weight: bold;
+}
+.organizer__content_text p:first-child{
+  margin-bottom: 13px;
+}
+.organizer__blocks {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 90px;
+}
+.organizer__blocks_item {
+  position: relative;
+  margin: 5px;
+  background-color: #fff;
+  border-radius: 35px;
+  background: #1573FF;
+  width: 380px;
+  height: 220px;
+  padding: 30px 40px;
+}
+.organizer__blocks_item:last-child {
+  margin-right: 0;
+}
+.organizer__blocks_item:first-child {
+  margin-left: 0;
+}
+.organizer__blocks_item p:first-child{
+  color: #FFF;
+  font-size: 72px;
+  font-family: Arial;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: -3px;
+  margin-bottom: 23px;
+  margin-top: 10px;
+}
+.organizer__blocks_item p:last-child{
+  color: #FFF;
+  font-size: 24px;
+  font-family: Arial;
+  line-height: 22px;
+}
+.organizer__blocks_item::before {
+  position: absolute;
+  content: '';
+  right: 32px;
+  top: 25px;
+  width: 56px;
+  height: 56px;
+  background-image: url('../images/organizer/star.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.organizer__partner_head {
+  display: flex;
+  justify-content: center;
+}
+.organizer__partner_head .btn__border_smoll{
+  height: 50px;
+}

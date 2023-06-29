@@ -1,0 +1,331 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='ico/favicon.ico' rel='icon'>
+  <link href="css/main.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="js/maskInput.js"></script>
+  <script src="js/main.js"></script>
+  <title>ФИНСГРАМ</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrapper header__wrapper">
+      <div class="header__logo">
+        <img src="images/header/logo01.png" alt="" />
+        <p>ФИНСГРАМ</p>
+      </div>
+      <div class="header__menu">
+        <a href="#championship" class="header__menu_item">
+          о чемпионате
+        </a>
+        <a href="#news" class="header__menu_item">
+          новости
+        </a>
+        <a href="#contacts" class="header__menu_item">
+          контакты
+        </a>
+      </div>
+      <div class="header__btn" id="btnReg">
+        <span>Регистрация</span>
+      </div>
+      <div class="menu__mob">
+        <svg class="ham hamRotate ham8" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+          <path class="line top"
+            d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+          <path class="line middle" d="m 30,50 h 40" />
+          <path class="line bottom"
+            d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+        </svg>
+      </div>
+    </div>
+    <div class="mob__menu">
+      <div class="header__menu header__menu_mob">
+        <a href="#" class="header__menu_item">
+          о чемпионате
+        </a>
+        <a href="#" class="header__menu_item">
+          новости
+        </a>
+        <a href="#" class="header__menu_item">
+          контакты
+        </a>
+        <div class="header__btn" id="btnReg">
+          <span>Регистрация</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="banner">
+    <div class="wrapper banner__wrapper">
+      <div class="banner__title">
+        <h1>
+          Летний<br>
+          чемпионат<br>
+          по финансовым<br> играм
+        </h1>
+        <img src="images/banner/ic01.png" alt="" />
+      </div>
+      <div class="banner__content">
+        <div class="banner__content_btns">
+          <div class="banner__content_btns_item">май-август 2023 г.</div>
+          <div class="banner__content_btns_item">г. Хабаровск</div>
+          <div class="banner__content_btns_item">для школьников 8-18 лет</div>
+        </div>
+        <p class="banner__content_txt">
+          Прокачай свои знания по&nbsp;финансовой грамотности
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="championship" class="championship">
+    <div class="wrapper">
+      <div class="championship__wrapper">
+        <div class="championship__content championship__content_left">
+          <div class="championship__content__btn">о&nbsp;чемпионате</div>
+          <h2>Что такое<br> чемпионат<br>
+            по финансовым<br> играм?</h2>
+          <p class="championship__content__text">
+            Летний чемпионат по&nbsp;финансовым играм&nbsp;&mdash; это уникальная
+            возможность повысить свои знания и&nbsp;навыки
+            по&nbsp;финансовой грамотности.
+            Чемпионат проводится в&nbsp;формате увлекательных настольных игр.</p>
+        </div>
+        <div class="championship__content championship__content_right">
+          <img src="images/championship/creative01.png" alt="" />
+          <p>Для участия в&nbsp;чемпионате не&nbsp;требуется специальных навыков и&nbsp;знаний.<br>
+            Изучать и&nbsp;закреплять знания по&nbsp;финансовой грамотности участники будут прямо во&nbsp;время турнира.
+          </p>
+        </div>
+        <img class="championship__hud" src="images/championship/ic01.png" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <section class="participation">
+    <div class="wrapper">
+      <a href="#" class="participation__billet btn__border_smoll">
+        для чего
+      </a>
+      <h3>Зачем участвовать<br>
+        в&nbsp;чемпионате?</h3>
+      <div class="participation__posts">
+        <div class="participation__posts_item">
+          <p class="participation__posts_head">Получить<br> прикладные<br> знания</p>
+          <img class="participation__posts_ic" src="images/participation/ic01.svg" alt="" />
+          <p class="participation__posts_text">На&nbsp;чемпионате есть возможность познакомиться с&nbsp;базовыми
+            понятиями и&nbsp;принципами финансовой грамотности,
+            прокачать гибкие навыки и&nbsp;предпринимательское мышление. А&nbsp;благодаря игровому формату новые знания
+            усвоятся
+            значительно лучше!</p>
+        </div>
+
+        <div class="participation__posts_item">
+          <p class="participation__posts_head">Проверить<br> себя</p>
+          <img class="participation__posts_ic" src="images/participation/ic02.svg" alt="" />
+          <p class="participation__posts_text">Результаты личного и&nbsp;командного зачетов продемонстрируют, насколько
+            хорошо ты&nbsp;разбираешься в&nbsp;теме
+            финансов и&nbsp;умеешь управлять своими ресурсами.</p>
+        </div>
+
+        <div class="participation__posts_item">
+          <p class="participation__posts_head">Восполнить<br> пробелы и<br> потренировать<br> навыки</p>
+          <img class="participation__posts_ic" src="images/participation/ic03.svg" alt="" />
+          <p class="participation__posts_text">Если умений и&nbsp;опыта не&nbsp;хватает, во&nbsp;время турнира
+            ты&nbsp;сможешь потренироваться, закрепить новую
+            информацию и&nbsp;систематизировать свои знания.</p>
+        </div>
+
+        <div class="participation__posts_item">
+          <p class="participation__posts_head">Получить призы и<br> подарки</p>
+          <img class="participation__posts_ic" src="images/participation/ic04.svg" alt="" />
+          <p class="participation__posts_text">Все участники получат сертификаты, а<br> финалистов и&nbsp;призеров ждут
+            памятные подарки.</p>
+        </div>
+      </div>
+      <a href="#" class="participation__btn participation__btn_pos">Подать заявку на участие</a>
+    </div>
+  </section>
+
+  <section class="criteria">
+    <div class="wrapper">
+      <div class="criteria__head">
+        <a href="#" class="criteria__head_btn btn__border_smoll">
+          для кого
+        </a>
+        <h3>Кто может<br>
+          принять участие?</h3>
+        <img src="images/criteria/star.svg" alt="" />
+      </div>
+      <div class="criteria__content">
+        <div class="criteria__content_left">
+          <img src="images/criteria/creative01.png" alt="" />
+          <p>Школьники 8-18 лет из&nbsp;Хабаровска и&nbsp;Хабаровского края</p>
+        </div>
+        <div class="criteria__content_right">
+          <p>Для участия в&nbsp;чемпионате достаточно заполнить форму на&nbsp;сайте.<br>
+            В&nbsp;этом тебе могут помочь твои родители.</p>
+          <p>После оформления заявки с&nbsp;тобой свяжутся организаторы и&nbsp;расскажут о&nbsp;дальнейших действиях.
+          </p>
+        </div>
+      </div>
+      <div class="criteria__questions">
+        <div class="criteria__questions_item">Ты&nbsp;школьник?</div>
+        <div class="criteria__questions_item">Хочешь быть финансово грамотным?</div>
+        <div class="criteria__questions_item">Регистрируйся на&nbsp;чемпионат!</div>
+      </div>
+      <a href="#" class="participation__btn criteria__btn">Принять участие</a>
+    </div>
+  </section>
+
+  <section id="news" class="news">
+    <div class="wrapper">
+      <a href="#" class="btn__border_smoll news__head_btn">новости</a>
+      <h3>Новости чемпионата</h3>
+      <p class="news__text">Как проходил летний чемпионат по&nbsp;финансовой грамотности
+        в&nbsp;2022&nbsp;г.&nbsp;<span>в&nbsp;Хабаровске</span></p>
+      <div class="news__hud">
+        <img src="images/news/hud01.png" alt="" />
+        <img src="images/news/hud02.png" alt="" />
+        <img src="images/news/hud03.png" alt="" />
+      </div>
+      <div class="news__collection">
+        <img src="images/news/creative01.png" alt="" />
+        <img src="images/news/creative02.png" alt="" />
+        <img src="images/news/creative03.png" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <section class="organizer">
+    <div class="wrapper">
+      <div class="organizer__head">
+        <a href="#" class="btn__border_smoll organizer__head_btn">
+          организатор
+        </a>
+        <h3> Организатор<br> чемпионата</h3>
+      </div>
+      <div class="organizer__content">
+        <div class="organizer__content_text">
+          <p>
+            <span>Финсграм&nbsp;&mdash;</span> это некоммерческая организация, занимающаяся развитием навыков у&nbsp;детей, которые
+            необходимы
+            для успешной жизни и&nbsp;карьеры в&nbsp;будущем.
+          </p>
+          <p>Мы&nbsp;обучаем детей и&nbsp;подростков 8&minus;18 лет финансовой грамотности, soft skills, помогаем
+            развивать
+            эмоциональный интеллект
+            и&nbsp;предпринимательское мышление.</p>
+        </div>
+        <img src="images/organizer/map.png" alt="" />
+      </div>
+      <div class="organizer__blocks">
+        <div class="organizer__blocks_item">
+          <p>700+</p>
+          <p>учеников за&nbsp;2022 год</p>
+        </div>
+        <div class="organizer__blocks_item">
+          <p>30+</p>
+          <p>школ-участников</p>
+        </div>
+        <div class="organizer__blocks_item">
+          <p>5</p>
+          <p>площадок</p>
+        </div>
+      </div>
+      <div class="organizer__partner">
+        <div class="organizer__partner_head">
+          <a href="#" class="btn__border_smoll">поддержка</a>
+          <img src="images/partner/star.svg" alt="" />
+          <h3 class="part_1">партнёры</h3>
+          <h3 class="part_2">и спонсоры</h3>
+        </div>
+        <div class="organizer__partner_items">
+          <a class="organizer__partner_item" href="#" target="_blank">
+            <img src="images/partner/item01.png" alt="">
+          </a>
+          <a class="organizer__partner_item" href="#" target="_blank">
+            <img src="images/partner/item02.png" alt="">
+          </a>
+          <a class="organizer__partner_item" href="#" target="_blank">
+            <img src="images/partner/item03.png" alt="">
+          </a>
+          <a class="organizer__partner_item" href="#" target="_blank">
+            <img src="images/partner/item04.png" alt="">
+          </a>
+          <a class="organizer__partner_item" href="#" target="_blank">
+            <img src="images/partner/item05.png" alt="">
+          </a>
+        </div>
+        <div class="organizer__partner_banner">
+          <p>Хотите стать партнером или спонсором Чемпионата? Напишите свой запрос на&nbsp;адрес <a
+              href="mailto:club@finsgram.ru" target="_blank">
+              club@finsgram.ru
+            </a></p>
+          <img src="images/partner/banner01.png" alt="" />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="registration">
+    <div class="wrapper">
+      <form action="" class="registration__from">
+        <p class="registration__head">Регистрация на&nbsp;чемпионат:</p>
+        <input type="text" class="firstName" name="firstName" placeholder="Имя" required>
+        <input type="text" class="lastName" name="lastName" placeholder="Фамилия" required>
+        <input type="text" class="address" name="address" placeholder="Адрес" required>
+        <input type="text" name="institution" placeholder="Наименование учебного заведения" required>
+        <input type="text" class="phone" name="phone" placeholder="Телефон" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <div class="registration__rules">
+          <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter" />
+          <label for="subscribeNews">Согласен с <a href="#" target="_blank">условиями использования</a> формы заявки и
+            <a href="#" target="_blank">политикой конфиденциальности</a> лица, разместившего форму заявки</label>
+        </div>
+        <button type="button" class="send-form" type="submit">РЕГИСТРАЦИЯ</button>
+        <div class="status"></div>
+      </form>
+    </div>
+  </section>
+
+  <section id="contacts" class="contacts">
+    <div class="wrapper">
+      <div class="contacts__info">
+        <a href="#">
+          <img src="images/contacts/logo01.png" alt="" />
+        </a>
+        <p class="place">Хабаровский край, г. Хабаровск</p>
+        <a href="tel:89227774014">8 (922) 777-40-14</a>
+        <a href="mailto:club@finsgram.ru">club@finsgram.ru</a>
+        <a><img src="images/contacts/sc01.png" alt="" /></a>
+      </div>
+      <img src="images/contacts/creative01.png" alt="" />
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="footer__top">
+        <p>
+          АВТОНОМНАЯ НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ ЦЕНТР РАЗВИТИЯ ЛИЧНЫХ И&nbsp;ПРОФЕССИОНАЛЬНЫХ КОМПЕТЕНЦИЙ
+          &laquo;НАСТАВНИКИ&raquo;
+        </p>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__bottom_item">&copy;&nbsp;Финсграм 2022-2023. Все права защищены.</p>
+        <a href="#" class="footer__bottom_item">Общие положения</a>
+        <a href="#" class="footer__bottom_item">Регламент проведения чемпионата</a>
+        <a href="#" class="footer__bottom_item">Политика обработки персональных данных</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

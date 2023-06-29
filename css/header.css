@@ -1,0 +1,178 @@
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(18, 1, 39, .6);
+  min-height: 109px;
+  z-index: 999;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+.header__logo img{
+  width: 75px;
+  margin-right: 12px;
+}
+.header__logo p{
+  font-size: 30px;
+  line-height: 79px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-right: 56px;
+  position: relative;
+  top: 4px;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2px;
+}
+.header__menu_item {
+  display: block;
+  text-decoration: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 31px; 
+  width: 150px;
+  margin: 0 23px;
+}
+.header__menu_item:first-child {
+  width: 170px;
+}
+.header__btn {
+  color: #191919;
+  text-align: center;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 22px; 
+  padding: 16px 40px;
+  background-color: #FFD262;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.menu__mob {
+  display: none;
+}
+
+.ham {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.hamRotate.active {
+  transform: rotate(45deg);
+}
+.hamRotate180.active {
+  transform: rotate(180deg);
+}
+.line {
+  fill:none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke: #FFD262;
+  stroke-width:5.5;
+  stroke-linecap:round;
+}
+.ham8 .top {
+  stroke-dasharray: 40 160;
+}
+.ham8 .middle {
+  stroke-dasharray: 40 142;
+  transform-origin: 50%;
+  transition: transform 400ms;
+}
+.ham8 .bottom {
+  stroke-dasharray: 40 85;
+  transform-origin: 50%;
+  transition: transform 400ms, stroke-dashoffset 400ms;
+}
+.ham8.active .top {
+  stroke-dashoffset: -64px;
+}
+.ham8.active .middle {
+  transform: rotate(90deg);
+}
+.ham8.active .bottom {
+  stroke-dashoffset: -64px;
+}
+.mob__menu {
+  display: none;
+}
+@media( max-width: 1310px) {
+  .header__wrapper {
+    margin: 0 15px;
+  }
+}
+
+@media( max-width: 1135px) {
+  .header__menu_item {
+    margin: 0 auto;
+  }
+}
+@media( max-width: 1023px) { 
+  .header__menu, .header__btn{
+    display: none;
+  }
+  .menu__mob {
+  display: block;
+  }
+}
+@media( max-width: 767px) { 
+  .header {
+    min-height: 80px;
+  }
+  .header__logo p {
+    font-size: 22px;
+    line-height: 31px;
+  }
+  .mob__menu {
+    display: none;
+    transition: 1s;
+  }
+  .header__menu_mob {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: start;
+    background-color: rgba(0, 0, 0, .6);
+    width: 100%;
+    padding-bottom: 20px;
+  } 
+  .header__menu_mob .header__menu_item{
+    margin: 10px 15px;
+    width: auto;
+    
+  }
+  .header__menu_mob .header__btn{
+    margin: 10px 15px;
+    display: block;
+  }
+}
+
+
+
+
+

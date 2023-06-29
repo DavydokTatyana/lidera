@@ -1,0 +1,82 @@
+section.championship {
+  padding-top: 170px;
+}
+.championship__wrapper {
+  position: relative;
+  left: 5px;
+  max-width: 1216px;
+  background-color: #1573FF;
+  border-radius: 35px;
+  padding: 43px 38px 74px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.championship__content_left {
+  max-width: 538px;
+}
+.championship__content_right {
+  max-width: 541px;
+}
+.championship__content .championship__content__btn{
+  color: #FFF;
+  font-size: 18px;
+  font-family: Arial;
+  line-height: 28px;
+  width: 168px;
+  padding: 7px 26px;
+  border-radius: 30px;
+  border: 1px solid #ffffff;
+  margin-bottom: 23px;
+}
+.championship__content h2 {
+  color: #FFF;
+  font-size: 48px;
+  font-family: Arial;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  margin-bottom: 27px;
+}
+.championship__content p {
+  color: #FFF;
+  font-size: 22px;
+  font-family: Arial;
+  font-weight: 700;
+  line-height: 34.5px;
+}
+.championship__content_right img{
+  position: relative;
+  left: -18px;
+  max-width: 100%;
+  margin: 68px 0 59px;
+}
+.championship__hud {
+  position: absolute;
+  bottom: -80px;
+  right: -103px;
+  width: 207px;
+  height: 206px;
+}
+.championship__wrapper::after {
+  content: "";
+  position: absolute;
+  width: 98px;
+  height: 98px;
+  background-image: url('../images/championship/ic02.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: -32px;
+  bottom: -38px;
+}
+
+.championship__wrapper::before {
+  content: "";
+  position: absolute;
+  width: 82px;
+  height: 82px;
+  background-image: url('../images/championship/ic03.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: -26px;
+  top: -30px;
+}
